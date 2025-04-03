@@ -1,6 +1,5 @@
 from pdf2image import convert_from_path
 import os
-
 input_folder = 'pdf_raw'               # 👈 path ไปยังโฟลเดอร์ PDF ทั้งหมด
 output_root = 'static/storybook_pages' # 👈 เก็บผลลัพธ์ไว้ใน static
 
